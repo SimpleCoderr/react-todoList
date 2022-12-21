@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/simplecoderr.github.io/react-todoList/static/css/main.d6528386.css",
+    "main.js": "/simplecoderr.github.io/react-todoList/static/js/main.fbee43f8.js",
+    "static/js/787.28cb0dcd.chunk.js": "/simplecoderr.github.io/react-todoList/static/js/787.28cb0dcd.chunk.js",
+    "static/media/logo.svg": "/simplecoderr.github.io/react-todoList/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/simplecoderr.github.io/react-todoList/index.html",
+    "main.d6528386.css.map": "/simplecoderr.github.io/react-todoList/static/css/main.d6528386.css.map",
+    "main.fbee43f8.js.map": "/simplecoderr.github.io/react-todoList/static/js/main.fbee43f8.js.map",
+    "787.28cb0dcd.chunk.js.map": "/simplecoderr.github.io/react-todoList/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6528386.css",
+    "static/js/main.fbee43f8.js"
+  ]
+}
