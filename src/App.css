@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-wrapper {
+  padding: 50px 0;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  border: solid 5px grey;
+  border-top: none;
+}
+
+.title {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-size: 250px;
+  background-repeat: repeat;
+  color: black;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+  3px 4px 4px rgba(179, 147, 211, 0.15),
+  4px 6px 4px rgba(179, 147, 211, 0.2),
+  5px 8px 4px rgba(179, 147, 211, 0.25);
+  margin-bottom: 40px;
+}
+
+.add-form {
+  width: 50%;
+  font-size: 20px;
+  display: flex;
+}
+
+.add-form input {
+  width: 75%;
+  padding: 5px 10px;
+  border: rgb(199, 199, 199) solid 2px;
+}
+.add-form input:focus {
+  border: none;
+}
+.add-form button {
+  width: 25%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(196, 196, 196);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.add-form button:hover {
+  background-color: rgb(161, 161, 161);
+  cursor: pointer;
+}
+.body-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.task_wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  background-color: rgb(238, 238, 238);
+  transition: all 0.7s;
+  cursor: pointer;
+}
+.task_wrapper:hover {
+  cursor: pointer;
+  background-color: rgb(199, 199, 199);
+  transition: all 0.7s;
+}
+.task {
+  width: 100%;
+  display: flex;
+  justify-content: stretch;
+  font-size: 20px;
+  transition: 0.4s;
+  padding: 7px;
+  font-size: 26px;
+}
+.checked-task {
+  text-decoration: line-through;
+}
+.remove-btn {
+  background-color: inherit;
+  border: none;
+  height: 100%;
+  width: 41px;
+  font-size: 24px;
+  text-decoration: none;
+}
+.remove-btn:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.checked-task_wrapper {
+  background-color: rgb(133, 133, 133);
+}
+.checked-task_wrapper:hover {
+  background-color: rgb(133, 133, 133);
+}
+.complete-tasks-statistic {
+  margin-top: 10px;
+  font-size: 26px;
+  color: rgb(170, 170, 170);
+  text-decoration: underline;
+}
+.promotion-line {
+  border: 3px solid black;
+  width: 50%;
+  height: 10px;
+  display: flex;
+  margin-top: 20px;
+
+}
+.promotion-line_nested {
+  transition: all 0.5s;
+  background-color: black;
+}
+.row__red {
+  background-color: red;
+}
